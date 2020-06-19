@@ -105,7 +105,7 @@ function populateChart(data) {
       ],
       datasets: [
         {
-          label: "Pounds",
+          label: "Kilograms",
           data: pounds,
           backgroundColor: [
             "rgba(255, 99, 132, 0.2)",
@@ -130,7 +130,7 @@ function populateChart(data) {
     options: {
       title: {
         display: true,
-        text: "Pounds Lifted",
+        text: "Kilograms Lifted",
       },
       scales: {
         yAxes: [

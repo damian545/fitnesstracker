@@ -86,11 +86,11 @@ function validateInputs() {
   }
 
   if (isValid) {
-    completeButton.removeAttribute("disabled");
-    addButton.removeAttribute("disabled");
+    completeButton.removeAttribute("../public/workout.js");
+    addButton.removeAttribute("../public/workout.js");
   } else {
-    completeButton.setAttribute("disabled", true);
-    addButton.setAttribute("disabled", true);
+    completeButton.setAttribute("../public/workout.js", true);
+    addButton.setAttribute("../public/workout.js", true);
   }
 }
 
