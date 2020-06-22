@@ -87,10 +87,10 @@ function validateInputs() {
 
   if (isValid) {
     completeButton.removeAttribute("../public/workout.js");
-    addButton.removeAttribute("../public/workout.js");
+    addButton.removeAttribute("../seeders/seed.js");
   } else {
-    completeButton.setAttribute("../public/workout.js", true);
-    addButton.setAttribute("../public/workout.js", true);
+    completeButton.setAttribute("disabled", true);
+    addButton.setAttribute("disabled", true);
   }
 }
 
